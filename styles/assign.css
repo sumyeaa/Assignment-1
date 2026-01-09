@@ -8,6 +8,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
 /* shared */
 .btn{
   color: #ffffff;
@@ -18,6 +23,17 @@
   padding: 16px 12px;
   border: none;
   cursor: pointer;
+}
+.hero-btn{
+  color: #ffffff;
+  background-color:#469165 ;
+  display: inline-flex;
+   font-weight: 600px;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 18px 16px;
+    border: none;
+    align-items: center;
 }
 /* main */
 header{
@@ -102,16 +118,7 @@ margin:  0 auto;
   justify-content: center;
 
 }
-.hero-btn{
-  color: #ffffff;
-  background-color:#469165 ;
-  display: inline-flex;
-   font-weight: 600px;
-  border-radius: 4px;
-  font-size: 12px;
-  padding: 18px 16px;
-    border: none;
-}
+
 .hero-btn2{
     color: #ffffff;
     background: transparent;
@@ -226,8 +233,96 @@ margin:  0 auto;
     color: #001931;
     margin-bottom: 16px;
 }
-.fa-solid{
+.brain-text-list li i{
     color: #30B868;
-    margin-right: 6px;
 }
+.ready{
+    padding-top:120px;
+}
+.ready-container{
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    width: 85%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.ready-text{
+    padding-top: 80px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.ready-text h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.ready-text p{
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #627382;
+}
+.ready-access p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+.footer{
+    margin-top:120px;
+    background-color: #001931;
+}
+.footer-container{
+    max-width: 1600px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 120px;
+}
+.footer-logo{
+    /* padding-bottom: 120px 120px 30px 120px; */
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1360px;
+    width: 85%;
+    /* margin-bottom: 84px; */
+    align-items: center;
+}
+.footer-img{
+    color: #FFFFFF;
+}
+.logo-text{
+    max-width: 220px;
+}
+.logo-text p{
+   font-size: 20px;
+   font-weight: 500px;
+   line-height: 28px;
+   color: #FFFFFF;
+   white-space: nowrap;
+   text-align: left;
+   margin-bottom: 16px;
+}
+.logo2{
+    display: flex;
+    gap: 8px;
+}
+.logo2 li{
+    list-style: none;
+    color: #ffffff;
+    max-width: 20px;
+}
+.footer-text{
+    margin-top: 84px;
+}
+.footer-text p{
+   color: #fafafa;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+
 
