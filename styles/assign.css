@@ -186,3 +186,48 @@ margin:  0 auto;
     line-height: 20px;
     margin-bottom: 22px;
 }
+.brain{
+    padding: 120px;
+}
+.brain-container{
+    display: flex;
+    max-width: 1360px;
+    width: 85%;
+}
+.brain-image{
+    max-width: 600px;
+}
+.brain-text{
+    padding: 102px 0 102px 60px;
+}
+.greenery{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-text-head h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+.brain-text-head .text{
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #627382;
+}
+.brain-text-list ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.fa-solid{
+    color: #30B868;
+    margin-right: 6px;
+}
+
