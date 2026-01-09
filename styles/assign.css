@@ -24,6 +24,9 @@ body{
   border: none;
   cursor: pointer;
 }
+.btn:hover{
+    background-color: grey;
+}
 .hero-btn{
   color: #ffffff;
   background-color:#469165 ;
@@ -34,6 +37,10 @@ body{
   padding: 18px 16px;
     border: none;
     align-items: center;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background-color: #627382;
 }
 /* main */
 header{
@@ -102,6 +109,7 @@ margin:  0 auto;
     border-radius: 1000px;
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
 }
 .hero-content p{
     line-height: 24px;
@@ -128,6 +136,10 @@ margin:  0 auto;
   font-size: 12px;
   padding: 17px 16px;
     border: white solid 1px;  
+    cursor: pointer;
+}
+.hero-btn2:hover{
+    background-color: #627382;
 }
 .notes{
     
